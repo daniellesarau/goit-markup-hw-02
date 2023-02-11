@@ -1,3 +1,12 @@
+html {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  color: #212121;
+}
+.unstyled-list {
+  list-style: none;
+}
 .top {
   position: absolute;
   width: 1600px;
@@ -6,9 +15,6 @@
   top: 0px;
   text-decoration: none;
   background: #ffffff;
-}
-.navigation-list {
-  list-style: none;
 }
 
 .logo {
@@ -23,8 +29,6 @@
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
-  /* identical to box height */
-
   letter-spacing: 0.03em;
   text-decoration: none;
   color: #2196f3;
@@ -47,7 +51,6 @@
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-
   color: #2196f3;
 }
 .portofoliu {
@@ -56,7 +59,6 @@
   height: 16px;
   left: 545px;
   top: 32px;
-
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -66,9 +68,7 @@
   text-decoration: none;
   color: #212121;
 }
-.portofoliu:hover {
-  color: #2196f3;
-}
+
 .contact {
   position: absolute;
   width: 59px;
@@ -85,9 +85,7 @@
   text-decoration: none;
   color: #212121;
 }
-.contact:hover {
-  color: #2196f3;
-}
+
 .email {
   position: absolute;
   width: 135px;
@@ -104,16 +102,13 @@
   text-decoration: none;
   color: #2196f3;
 }
-.email:hover {
-  color: #2196f3;
-}
+
 .phone {
   position: absolute;
   width: 113px;
   height: 16px;
   left: 1272px;
   top: 32px;
-
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -123,20 +118,13 @@
   text-decoration: none;
   color: #757575;
 }
-.phone:hover {
-  color: #2196f3;
-}
-.body-still {
-  font-family: "Roboto";
-  font-style: normal;
-}
+
 .section-1 {
   position: absolute;
   width: 1600px;
   height: 600px;
   left: 0px;
   top: 80px;
-
   background: #2f303a;
 }
 .title {
@@ -145,16 +133,12 @@
   height: 120px;
   left: 452px;
   top: 200px;
-
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
-  /* or 136% */
-
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-
   color: #ffffff;
 }
 .buton {
@@ -163,23 +147,21 @@
   height: 50px;
   left: 700px;
   top: 380px;
-
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-
   color: #ffffff;
+  cursor: pointer;
 }
 .buton:hover {
-  color: #2196f3;
+  color: black;
+  background-color: #2196f3;
 }
 
 .title-1 {
@@ -188,14 +170,11 @@
   height: 16px;
   left: 215px;
   top: 774px;
-
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
-  color: #212121;
 }
 .paragraf-1 {
   position: absolute;
@@ -203,14 +182,9 @@
   height: 75px;
   left: 215px;
   top: 800px;
-
-  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  /* or 171% */
-
   letter-spacing: 0.03em;
-
   color: #757575;
 }
 .title-2 {
@@ -219,14 +193,11 @@
   height: 16px;
   left: 515px;
   top: 774px;
-
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
-  color: #212121;
 }
 .paragraf-2 {
   position: absolute;
@@ -234,14 +205,9 @@
   height: 75px;
   left: 515px;
   top: 800px;
-
-  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  /* or 171% */
-
   letter-spacing: 0.03em;
-
   color: #757575;
 }
 .title-3 {
@@ -250,14 +216,11 @@
   height: 16px;
   left: 815px;
   top: 774px;
-
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
-  color: #212121;
 }
 .paragraf-3 {
   position: absolute;
@@ -265,14 +228,9 @@
   height: 75px;
   left: 815px;
   top: 800px;
-
-  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  /* or 171% */
-
   letter-spacing: 0.03em;
-
   color: #757575;
 }
 .title-4 {
@@ -281,14 +239,11 @@
   height: 16px;
   left: 1115px;
   top: 774px;
-
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
-  color: #212121;
 }
 .paragraf-4 {
   position: absolute;
@@ -296,31 +251,28 @@
   height: 75px;
   left: 1115px;
   top: 800px;
-
-  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  /* or 171% */
-
   letter-spacing: 0.03em;
-
   color: #757575;
 }
-
+.section-3 {
+  width: 1170px;
+  height: 386px;
+  left: 215px;
+  top: 969px;
+}
 .job-section {
-  position: absolute;
+  position: relative;
   width: 198px;
   height: 42px;
   left: 701px;
-  top: 969px;
-
+  top: 935px;
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
-
-  color: #212121;
 }
 .photo-1 {
   position: absolute;
@@ -328,7 +280,6 @@
   height: 294px;
   left: 215px;
   top: 1061px;
-
   background: url(.jpg);
   mix-blend-mode: normal;
 }
@@ -338,7 +289,6 @@
   height: 294px;
   left: 615px;
   top: 1061px;
-
   background: url(.jpg);
 }
 .photo-3 {
@@ -347,7 +297,6 @@
   height: 294px;
   left: 1015px;
   top: 1061px;
-
   background: url(.jpg);
 }
 
@@ -358,14 +307,11 @@
   left: 718px;
   right: 717px;
   top: 1500px;
-
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
-
-  color: #212121;
 }
 .christofer {
   position: absolute;
@@ -373,10 +319,7 @@
   height: 368px;
   left: 215px;
   top: 1635px;
-
   background: #ffffff;
-  /* material shadow v1 */
-
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -390,19 +333,15 @@
   font-weight: 500;
   line-height: 19px;
   letter-spacing: 0.03em;
-  color: #212121;
 }
 .job-chris,
 .job-kylie,
 .job-ryan,
 .job-tyler {
-  font-weight: 400;
   font-size: 16px;
   line-height: 19px;
-
   text-align: center;
   letter-spacing: 0.03em;
-
   color: #757575;
 }
 .kylie {
@@ -411,10 +350,7 @@
   height: 368px;
   left: 515px;
   top: 1635px;
-
   background: #ffffff;
-  /* material shadow v1 */
-
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -425,10 +361,7 @@
   height: 368px;
   left: 815px;
   top: 1635px;
-
   background: #ffffff;
-  /* material shadow v1 */
-
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -439,10 +372,7 @@
   height: 368px;
   left: 1115px;
   top: 1635px;
-
   background: #ffffff;
-  /* material shadow v1 */
-
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -453,26 +383,26 @@
   height: 251px;
   left: 0px;
   top: 2097px;
-
   background: #2f303a;
 }
+
 .logo-footer {
-  position: absolute;
+  text-decoration: none;
   width: 145px;
   height: 31px;
   left: 215px;
-  top: 60px;
-
+  top: 2157px;
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
-  /* identical to box height */
-
   letter-spacing: 0.03em;
-
   color: #2196f3;
+}
+.logo-footer::after {
+  content: "Studio";
+  color: #ffffff;
 }
 .address-footer {
   position: absolute;
@@ -481,4 +411,314 @@
   left: 215px;
   top: 119px;
   color: black;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+}
+.location-footer {
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  width: 207px;
+  height: 16px;
+  left: 215px;
+  top: 2216px;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.email-footer {
+  text-decoration: none;
+  width: 231px;
+  height: 16px;
+  left: 215px;
+  top: 2244px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.phone-footer {
+  text-decoration: none;
+  width: 231px;
+  height: 16px;
+  left: 215px;
+  top: 2272px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.button-portofolio {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  height: 38px;
+  top: 174px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  border-style: none;
+  cursor: pointer;
+}
+.button-portofolio:hover {
+  background-color: #2196f3;
+}
+
+.button-all {
+  position: absolute;
+  width: 64px;
+  left: 542px;
+  background-color: #2196f3;
+  color: #ffffff;
+}
+.button-websites {
+  position: absolute;
+  width: 120px;
+  left: 614px;
+}
+.button-apps {
+  position: absolute;
+  width: 83px;
+
+  left: 742px;
+}
+.button-design {
+  position: absolute;
+  width: 96px;
+  left: 833px;
+}
+.button-marketing {
+  position: absolute;
+  width: 121px;
+  left: 937px;
+}
+.card-portofolio {
+  box-sizing: border-box;
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+.card-technoduck {
+  left: 215px;
+  top: 262px;
+}
+.card-poster {
+  left: 615px;
+  top: 262px;
+}
+.card-seafood {
+  left: 1015px;
+  top: 262px;
+}
+.card-prime {
+  left: 215px;
+  top: 696px;
+}
+.card-boxes {
+  left: 615px;
+  top: 698px;
+}
+.card-inspiration {
+  left: 1015px;
+  top: 696px;
+}
+.card-limited {
+  left: 215px;
+  top: 1130px;
+}
+.card-lab {
+  left: 615px;
+  top: 1130px;
+}
+.card-business {
+  left: 1015px;
+  top: 1130px;
+}
+
+.images-portofolio {
+  left: 215px;
+  top: 262px;
+  background: url(.jpg);
+}
+.title-card {
+  width: 322px;
+  height: 36px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+}
+
+.text-card {
+  width: 322px;
+  height: 30px;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.title-technoduck {
+  left: 500px;
+  top: 576px;
+}
+.text-technoduck {
+  left: 239px;
+  top: 616px;
+}
+
+.title-poster {
+  left: 639px;
+  top: 576px;
+}
+.text-poster {
+  left: 639px;
+  top: 616px;
+}
+
+.title-seafood {
+  left: 1039px;
+  top: 576px;
+}
+.text-seafood {
+  left: 1039px;
+  top: 616px;
+}
+
+.title-prime {
+  left: 239px;
+  top: 1010px;
+}
+.text-prime {
+  left: 239px;
+  top: 1050px;
+}
+
+.title-boxes {
+  left: 639px;
+  top: 1010px;
+}
+.text-boxes {
+  left: 639px;
+  top: 1050px;
+}
+
+.title-inspiration {
+  left: 1039px;
+  top: 1010px;
+}
+.text-inspiration {
+  left: 1039px;
+  top: 1050px;
+}
+
+.title-limited {
+  left: 239px;
+  top: 1444px;
+}
+.text-limited {
+  left: 239px;
+  top: 1484px;
+}
+
+.title-lab {
+  left: 639px;
+  top: 1444px;
+}
+.text-lab {
+  left: 639px;
+  top: 1484px;
+}
+
+.title-business {
+  left: 1039px;
+  top: 1444px;
+}
+.text-business {
+  left: 1039px;
+  top: 1484px;
+}
+.footer-portofolio {
+  position: absolute;
+  width: 1600px;
+  height: 251px;
+  left: 0px;
+  top: 1628px;
+  font-family: "Roboto";
+  background: #2f303a;
+}
+.logo-footer-portofolio {
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 1688px;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: #2196f3;
+}
+.logo-footer-portofolio::after {
+  content: "Studio";
+  color: white;
+}
+.location-footer-portofolio {
+  width: 207px;
+  height: 16px;
+  left: 215px;
+  top: 1747px;
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.email-footer-portofolio {
+  width: 231px;
+  height: 16px;
+  left: 215px;
+  top: 1775px;
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.phone-footer-portofolio {
+  width: 231px;
+  height: 16px;
+  left: 215px;
+  top: 1803px;
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.hoover:hover {
+  color: #2196f3;
 }
