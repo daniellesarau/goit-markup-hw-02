@@ -26,7 +26,7 @@ html {
   text-decoration: none;
   font-family: "Raleway";
   font-style: normal;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
@@ -51,7 +51,7 @@ html {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: #2196f3;
+  color: #212121;
 }
 .portofoliu {
   position: absolute;
@@ -150,7 +150,7 @@ html {
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 16px;
   line-height: 30px;
   align-items: center;
@@ -170,7 +170,7 @@ html {
   height: 16px;
   left: 215px;
   top: 774px;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
@@ -193,7 +193,7 @@ html {
   height: 16px;
   left: 515px;
   top: 774px;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
@@ -216,7 +216,7 @@ html {
   height: 16px;
   left: 815px;
   top: 774px;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
@@ -239,7 +239,7 @@ html {
   height: 16px;
   left: 1115px;
   top: 774px;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
@@ -268,7 +268,7 @@ html {
   height: 42px;
   left: 701px;
   top: 935px;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 36px;
   line-height: 42px;
   text-align: center;
@@ -307,7 +307,7 @@ html {
   left: 718px;
   right: 717px;
   top: 1500px;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 36px;
   line-height: 42px;
   text-align: center;
@@ -394,7 +394,7 @@ html {
   top: 2157px;
   font-family: "Raleway";
   font-style: normal;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
@@ -413,13 +413,12 @@ html {
   color: black;
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 400;
 }
 .location-footer {
   text-decoration: none;
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 400;
+
   width: 207px;
   height: 16px;
   left: 215px;
@@ -437,7 +436,7 @@ html {
   top: 2244px;
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 400;
+
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
@@ -451,7 +450,7 @@ html {
   top: 2272px;
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 400;
+
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
@@ -480,8 +479,6 @@ html {
   position: absolute;
   width: 64px;
   left: 542px;
-  background-color: #2196f3;
-  color: #ffffff;
 }
 .button-websites {
   position: absolute;
@@ -557,7 +554,7 @@ html {
 .title-card {
   width: 322px;
   height: 36px;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 18px;
   line-height: 36px;
   letter-spacing: 0.06em;
@@ -666,7 +663,7 @@ html {
   left: 215px;
   top: 1688px;
   font-family: "Raleway";
-  font-weight: 700;
+  font-weight: bold;
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
@@ -685,7 +682,7 @@ html {
   text-decoration: none;
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 400;
+
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
@@ -699,7 +696,7 @@ html {
   text-decoration: none;
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 400;
+
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
@@ -713,7 +710,7 @@ html {
   text-decoration: none;
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 400;
+
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
